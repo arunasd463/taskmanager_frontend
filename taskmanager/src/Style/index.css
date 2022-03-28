@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    padding: 20px;
+    background-color: hsl(64, 97%, 48%);
+    overflow: auto;
+    list-style: none;
+    margin: 10px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.navbar li{
+    display: block;
+    float: right;
+    margin-left: 20px;
+    width: 120px;
+    font-family: serif;
+    color: rgb(10, 10, 10);
+}
+
+.navbar li:hover {
+	background-color:rgb(252, 8, 8);
+	color:rgb(250, 246, 246);
+}
